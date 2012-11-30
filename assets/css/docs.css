@@ -32,7 +32,15 @@ hr {
 	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
 	border: 0;
 }
-
+/* Fix Thumbnails
+-------------------------------------------------- */
+.thumbnail p, .thumbnail .link-title  {
+	padding: 4px;
+}
+.link-title {
+	font-size: 1.3em;
+	font-weight: 700;
+}
 /* Jumbotrons
 -------------------------------------------------- */
 .jumbotron {
